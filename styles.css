@@ -1,0 +1,198 @@
+:root{
+    font-size: 16px;
+    --rose: #AA381E;
+    --pink-flower: #e27676;
+    --blush: #FDDDE6;
+    --cream: #FFF0D6;
+    --gold: #FFB200;
+    --sea-green: #1E90AA;
+    --white: #fff;
+    --med-gray: #666769;
+    --box-shadow: -0.5rem 0.5rem 1rem var(--med-gray); 
+}
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+header,nav,main,footer {
+    display: block;
+}
+
+body {
+    color: var(--med-gray);
+    background-color: var(--cream);
+    font-family: 'perpetua', 'palatino', 'bradly hand';
+    line-height: 1.5;
+    min-width:1200px;
+    max-width:1480px;
+    font-size: 23px;
+}
+nav {
+    height: 50px;
+    
+}
+nav a {
+    display:block;
+    text-align: center;
+    color: var(--sea-green);
+    font-weight: bold;
+    font-family: 'ink free', 'papyrus', 'yu gothic';
+    font-size: 23px;
+    padding: 1px;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--gold);
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    width: 20%;
+}
+a:visited{
+    color: var(--gold);
+}
+a:active {
+    color: var(--gold);
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'ink free', 'papyrus', 'yu gothic';
+}
+h1 {
+    color: var(--rose);
+}
+h2 {
+    background-color: var(--rose);
+    color: var(--gold);
+    padding: 50px;
+    margin: 0;
+    position: relative;
+    bottom: 12px;
+}
+h3{
+    color: var(--sea-green);
+}
+img {
+    max-width: 100%;
+    box-shadow: var(--box-shadow);
+    border-radius: .25rem;
+}
+main {
+    padding-bottom: 50px;
+}
+form {
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    float: right;
+    
+}
+input {
+    display: inline-block;
+    width: 200px;
+    height:20px;
+    margin-bottom: 2em;
+}
+label {
+    display: block;
+    font-weight: bold;
+    padding-right: 1em;
+    font-family: 'ink free', 'papyrus', 'yu gothic';
+}
+#contact {
+    width: 80%;
+    margin: auto;
+}
+#contact img {
+    float: left;
+    width: 45%;
+    height: auto;
+}
+#contact p {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+#my-submit {
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'ink free', 'papyrus', 'yu gothic';
+}
+textarea {
+    display:block;
+    margin-bottom:2em;
+    width:225px;
+}
+footer {
+    background-color: var(--rose);
+    clear: both;
+    text-align: center;
+    position: relative;
+    bottom: -90px;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--gold);
+}
+footer h3{
+    color: var(--gold);
+}
+#modern {
+    align-items: center;
+}
+#modern a {
+    position: relative;
+    bottom: 50px;
+    left: 590px;
+
+}
+#cater{
+    text-align: center;
+    padding: 20px;
+}
+#cater p {
+    margin: 0;
+    padding-bottom: 40px;
+    display: block;
+    width: 40%;
+    position: relative;
+    left: 380px;
+    text-align: left;
+}
+#local {
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 5px;
+}
+#chef {
+    width: 50%;
+    float: right;
+    margin: auto;
+    padding: 5px;
+}
+#chef p {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#local p {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
